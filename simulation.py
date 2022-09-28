@@ -14,7 +14,7 @@ from sklearn.model_selection import LeaveOneOut
 from sklearn.model_selection import cross_val_predict
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-# Don't show the warnings when there are only 3 positives
+# Don't show the warnings when there are only 3 positives.
 import warnings
 warnings.filterwarnings("ignore")
 
